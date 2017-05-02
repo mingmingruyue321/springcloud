@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="eureka-provider"/>
+<aop-project name="eureka-feign"/>
+<aop-project name="eureka-consumer"/>
+<aop-project name="eureka"/>
+<aop-project name="eureka-hystrix"/>
+</aop-reference-model>

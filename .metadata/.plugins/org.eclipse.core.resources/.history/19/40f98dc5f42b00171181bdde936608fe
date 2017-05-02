@@ -1,0 +1,8 @@
+package mmry.eureka_feign;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+
+@FeignClient(value = "mmry-provider-demo")
+public interface HelloService {
+
+}

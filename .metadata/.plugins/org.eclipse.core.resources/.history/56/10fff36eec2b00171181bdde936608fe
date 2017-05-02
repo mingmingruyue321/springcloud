@@ -1,0 +1,8 @@
+package mmry.eureka.consumer;
+
+
+public class AppConsumer {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}

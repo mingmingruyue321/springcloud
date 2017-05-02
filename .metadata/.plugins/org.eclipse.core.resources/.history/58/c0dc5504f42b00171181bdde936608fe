@@ -1,0 +1,8 @@
+package mmry.eureka_feign;
+
+
+public class App {
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+}

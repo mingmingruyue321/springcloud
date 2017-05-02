@@ -1,0 +1,14 @@
+package mmry.eureka_hystrix;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class SchedualServiceHiHystric implements HelloService{
+
+	@Override
+	public String sayHello(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

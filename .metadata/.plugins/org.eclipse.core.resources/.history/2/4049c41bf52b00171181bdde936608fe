@@ -1,0 +1,5 @@
+package mmry.eureka_feign;
+
+public class HelloControler {
+
+}
