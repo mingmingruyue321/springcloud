@@ -1,0 +1,19 @@
+server:
+  port: 9005
+spring:
+  application:
+    name: service-zuul
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/
+  instance:
+    preferIpAddress: true
+zuul:
+  routes:
+    hello:
+      path: /hello
+      serviceId: service-consumer
+    api-b:
+      mmry: /mmry
+      serviceId: service-feign

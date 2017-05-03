@@ -11,6 +11,10 @@ public class HelloControler {
     HelloService helloService;
     @RequestMapping(value = "/hello")
     public String hi(@RequestParam String name){
-        return helloService.sayHello(name);
+        return helloService.sayHello("feign:"+name);
+    }
+    @RequestMapping(value = "/mmry")
+    public String say(@RequestParam String name){
+        return helloService.sayHello("feign-mmry:"+name);
     }
 }

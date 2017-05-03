@@ -12,7 +12,7 @@ public class HelloControler {
     HelloService helloService;
     @RequestMapping(value = "/hello")
     public String hi(@RequestParam String name){
-        return helloService.hiService(name);
+        return helloService.hiService("DiscoveryClient:"+name);
     }
 
 

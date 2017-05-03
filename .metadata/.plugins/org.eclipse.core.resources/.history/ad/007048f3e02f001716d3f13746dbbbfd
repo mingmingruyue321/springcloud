@@ -1,0 +1,40 @@
+package mmry.zuul;
+
+import com.netflix.zuul.ZuulFilter;
+/**
+ * zuul过滤器
+ * @author mingmingruyue
+ *
+ */
+public class MyFilter extends ZuulFilter{
+
+	@Override
+	public Object run() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean shouldFilter() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public int filterOrder() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+	/**
+	 * 过滤类型
+	 * pre：路由之前
+	 * routing：路由之时
+	 * post： 路由之后
+	 * error：发送错误调用
+	 */
+	@Override
+	public String filterType() {
+		return "pre";
+	}
+
+}

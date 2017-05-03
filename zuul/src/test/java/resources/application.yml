@@ -1,11 +1,19 @@
 server:
-  port: 9091
+  port: 9006
 spring:
   application:
-    name: service-feign
+    name: service-zuul
 eureka:
   client:
     serviceUrl:
       defaultZone: http://127.0.0.1:8761/eureka/
   instance:
     preferIpAddress: true
+zuul:
+  routes:
+    hello:
+      path: /hello
+      serviceId: service-consumer
+    mmry:
+      path: /mmry
+      serviceId: service-feign
