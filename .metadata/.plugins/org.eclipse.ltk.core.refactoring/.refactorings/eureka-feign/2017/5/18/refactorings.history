@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;application.yml&apos; to &apos;zuul/src/main/java/resources&apos;&#x0D;&#x0A;- Original project: &apos;eureka-feign&apos;&#x0D;&#x0A;- Destination element: &apos;zuul/src/main/java/resources&apos;&#x0D;&#x0A;- Original element: &apos;application.yml&apos;" description="Copy file" destination="=zuul/src\/main\/java\/resources" element1="src/main/java/resources/application.yml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1493798636170" units="0" version="1.0"/>
-</session>

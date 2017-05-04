@@ -4459,3 +4459,14 @@ java.io.FileNotFoundException: C:\Users\mingmingruyue\.m2\repository\.cache\m2e\
 2017-05-03 17:30:22,421 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\work2014\arch6\zuul\src\main\resources
 2017-05-03 17:30:22,423 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-05-03 17:30:22,423 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\work2014\arch6\zuul\src\test\resources
+2017-05-03 18:25:16,765 [Worker-60] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\work2014\arch6\config\pom.xml
+2017-05-03 18:25:17,449 [Worker-60] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mmry:config:0.0.1-SNAPSHOT @ D:\work2014\arch6\config\pom.xml.
+2017-05-03 18:25:17,684 [Worker-60] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config/src/main/java
+2017-05-03 18:25:17,700 [Worker-60] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /config/src/test/java
+2017-05-03 18:25:18,270 [Worker-60] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Project import completed 1 sec
+2017-05-03 18:25:19,378 [Worker-57] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mmry:config:0.0.1-SNAPSHOT @ D:\work2014\arch6\config\pom.xml.
+2017-05-03 18:25:20,457 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-03 18:25:20,458 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\work2014\arch6\config\src\main\resources
+2017-05-03 18:25:20,459 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-03 18:25:20,459 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\work2014\arch6\config\src\test\resources
+2017-05-04 09:12:42,166 [Worker-78] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: mmry:zuul:0.0.1-SNAPSHOT @ D:\work2014\arch6\zuul\pom.xml.
