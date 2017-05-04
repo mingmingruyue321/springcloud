@@ -7,5 +7,12 @@ spring:
     name: config-client
   cloud:
     config:
-      uri: http://127.0.0.1:9001/
+      #uri: http://127.0.0.1:9001/
       profile: dev
+      discovery:
+        enabled: true
+        service-id: config-server
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://127.0.0.1:8761/eureka/

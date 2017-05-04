@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RefreshScope
 public class Hi {
-	@Value("${appname}")
-    String appname;
-    @RequestMapping(value = "/app")
+	@Value("${name}")
+    String name;
+    @RequestMapping(value = "/hi")
     public String hi(){
-        return appname;
+        return name;
     }
 }
